@@ -6,7 +6,7 @@ from redefine_datatypes import  sql_types
 connection = psycopg2.connect(host='localhost',
                               dbname='postgres',
                               user='postgres',
-                              password='gautham1235',
+                              password='password',
                               port='5432')
 
 cursor = connection.cursor()
