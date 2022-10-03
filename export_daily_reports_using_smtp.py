@@ -21,7 +21,7 @@ with open(path,"rb") as f:
     msg.add_attachment(file_data,maintype="attachments",subtype="octet-stream",filename=file_name)
 
 
-with smtplib.SMTP_SSL('smtp.gmail.com',587) as server:
+with smtplib.SMTP_SSL('smtp.gmail.com',465) as server:
     server.login("manasasample29@gmail.com","dnwqfrtjpbcaffxy")
     server.send_message(msg)
 
