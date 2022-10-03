@@ -74,7 +74,7 @@ daily_export.rename(columns=dict,inplace=True)
 daily_export.to_csv(path_to_save+'.csv',index=False)
 
 #export into postgres
-engine=create_engine("postgresql+psycopg2://postgres:gautham1235@localhost:5432/postgres")
+engine=create_engine("postgresql+psycopg2://postgres:passwordname@localhost:5432/postgres")
 
 try:
     daily_export.to_sql('edt_historical_report_entrfacebook', engine, if_exists='replace', index=False)
