@@ -22,7 +22,7 @@ with open(path,"rb") as f:
 
 
 with smtplib.SMTP_SSL('smtp.gmail.com',465) as server:
-    server.login("manasasample29@gmail.com","dnwqfrtjpbcaffxy")
+    server.login("manasasample29@gmail.com","password")
     server.send_message(msg)
 
 
