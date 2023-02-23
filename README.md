@@ -78,13 +78,3 @@ Further ideas:
 •	Spark or pyspark will be more beneficial while dealing with such data, first data is fetched, and then using pyspark SQL required columns will be selected from the fetched data and then exported into Postgres or batch systems.
 
 •	Exporting to Postgres can be easier using sqoop.
-
-Note:
-I have not added the files related to the credentials of Gmail mail that are required to send or download the mail. And have also not added some files like token, and labels that involves my credentials.
- 
-I have given detailed explaination in [DW JUNIOR DATA ENGINEER.pdf](https://github.com/Manasakota5/Gmail_api/files/9699229/DW.JUNIOR.DATA.ENGINEER.pdf)
-along with images.
-
-References:
-https://support.google.com/mail/answer/7190?hl=en&ref_topic=3394593
-https://developers.google.com/gmail/api/quickstart/python
